@@ -1,0 +1,22 @@
+.div{
+    width: 100%;
+    background-color: black;
+    background-size: 100% 100%;
+    box-shadow: 20px 20px 10px grey;
+    animation: slider 10s linear infinite;
+}
+@keyframes div {
+    0%{
+        background-image: url(1.png);
+    }
+    30%{
+        background-image: url(2.png);
+    }
+    60%{
+        background-image: url(3.png);
+    }
+    100%{
+        background-image: url(4.png);
+    }
+    
+}
